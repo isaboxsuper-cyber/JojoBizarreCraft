@@ -13,21 +13,21 @@ public class ModAttachments {
 
     /** id do stand ("" = nenhum). Persiste apos a morte. */
     public static final Supplier<AttachmentType<String>> STAND = ATTACHMENTS.register("stand",
-            () -> AttachmentType.builder(() -> "").serialize(Codec.STRING.fieldOf("v")).copyOnDeath().build());
+            () -> AttachmentType.builder(() -> "").serialize(Codec.STRING).copyOnDeath().build());
 
     /** Stand invocado ou nao. */
     public static final Supplier<AttachmentType<Boolean>> STAND_ACTIVE = ATTACHMENTS.register("stand_active",
-            () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL.fieldOf("v")).build());
+            () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL).build());
 
     /** E usuario de Hamon. Persiste apos a morte. */
     public static final Supplier<AttachmentType<Boolean>> HAMON = ATTACHMENTS.register("hamon",
-            () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL.fieldOf("v")).copyOnDeath().build());
+            () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL).copyOnDeath().build());
 
     /** Energia do Hamon (0-100). */
     public static final Supplier<AttachmentType<Integer>> HAMON_ENERGY = ATTACHMENTS.register("hamon_energy",
-            () -> AttachmentType.builder(() -> 0).serialize(Codec.INT.fieldOf("v")).build());
+            () -> AttachmentType.builder(() -> 0).serialize(Codec.INT).build());
 
     /** E vampiro. Persiste apos a morte. */
     public static final Supplier<AttachmentType<Boolean>> VAMPIRE = ATTACHMENTS.register("vampire",
-            () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL.fieldOf("v")).copyOnDeath().build());
+            () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL).copyOnDeath().build());
 }
