@@ -1,0 +1,13 @@
+{
+  "itemGroup.jojomod": "JoJo's Bizarre Adventure",
+  "item.jojomod.stand_arrow": "Stand Arrow",
+  "item.jojomod.stand_arrow.tooltip": "Right click: the arrow pierces you. Only the worthy awaken a Stand.",
+  "item.jojomod.stone_mask": "Stone Mask",
+  "item.jojomod.stone_mask.tooltip": "The spikes awaken the vampire within.",
+  "item.jojomod.hamon_scroll": "Hamon Scroll",
+  "item.jojomod.hamon_scroll.tooltip": "Learn Hamon breathing. Hold Shift to breathe and recharge.",
+  "key.categories.jojomod": "JoJo Mod",
+  "key.jojomod.toggle_stand": "Summon / dismiss Stand",
+  "key.jojomod.ability1": "Ability 1 (Stand / Hamon / Vampire)",
+  "key.jojomod.ability2": "Ability 2 (Stand / Hamon / Vampire)"
+}

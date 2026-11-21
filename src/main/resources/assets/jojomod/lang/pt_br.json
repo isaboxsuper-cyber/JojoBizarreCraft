@@ -1,0 +1,13 @@
+{
+  "itemGroup.jojomod": "JoJo's Bizarre Adventure",
+  "item.jojomod.stand_arrow": "Flecha de Stand",
+  "item.jojomod.stand_arrow.tooltip": "Botão direito: a flecha te perfura. Só os dignos despertam um Stand.",
+  "item.jojomod.stone_mask": "Máscara de Pedra",
+  "item.jojomod.stone_mask.tooltip": "Os espinhos despertam o vampiro dentro de você.",
+  "item.jojomod.hamon_scroll": "Pergaminho do Hamon",
+  "item.jojomod.hamon_scroll.tooltip": "Aprenda a respiração Hamon. Segure Shift para respirar e recarregar.",
+  "key.categories.jojomod": "JoJo Mod",
+  "key.jojomod.toggle_stand": "Invocar / recolher Stand",
+  "key.jojomod.ability1": "Habilidade 1 (Stand / Hamon / Vampiro)",
+  "key.jojomod.ability2": "Habilidade 2 (Stand / Hamon / Vampiro)"
+}
